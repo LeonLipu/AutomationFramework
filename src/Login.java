@@ -12,8 +12,8 @@ public class Login {
         System.out.println("Myname is brahmananda kar");
        // System.setProperty("webdriver.chorme.driver"," chrome.exe");
         System.setProperty("webdriver.chorme.driver"," chromedriver");
-        WebDriver driver=new ChromeDriver();
-        driver.close();
+       // WebDriver driver=new ChromeDriver();
+        //driver.close();
 
 
     }
