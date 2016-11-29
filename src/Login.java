@@ -10,10 +10,21 @@ public class Login {
     @Test
     public void getname(){
         System.out.println("Myname is brahmananda kar");
-        System.setProperty("webdriver.chorme.driver"," chrome.exe");
+       // System.setProperty("webdriver.chorme.driver"," chrome.exe");
         System.setProperty("webdriver.chorme.driver"," chromedriver");
         WebDriver driver=new ChromeDriver();
         driver.close();
+
+
+    }
+    @Test
+    public void setname(){
+        System.out.println("Myname is brahmananda kar");
+        System.setProperty("webdriver.chorme.driver"," chrome.exe");
+        System.setProperty("webdriver.chorme.driver"," chromedriver");
+        //  WebDriver driver=new ChromeDriver();
+
+        // driver.close();
 
 
     }
