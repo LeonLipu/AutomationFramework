@@ -3,6 +3,7 @@
     <test name="Regression suite 1" >
         <classes>
             <class name="Login"/>
+            <class name="CreateTestData"/>
         </classes>
     </test>
 </suite>
