@@ -20,7 +20,7 @@ public class Login {
     @Test
     public void setname(){
         System.out.println("Myname is brahmananda kar");
-        System.setProperty("webdriver.chorme.driver"," chrome.exe");
+      //  System.setProperty("webdriver.chorme.driver"," chrome.exe");
         System.setProperty("webdriver.chorme.driver"," chromedriver");
 
 
